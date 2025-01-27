@@ -1,6 +1,6 @@
 [submodule "submodules/zfsonlinux"]
 	path = submodules/zfsonlinux
 	url = ../zfsonlinux
-[submodule "submodules/ubuntu-kernel"]
-	path = submodules/ubuntu-kernel
-	url = ../mirror_ubuntu-kernels
+[submodule "submodules/debian-kernel"]
+	path = submodules/debian-kernel
+	url = https://salsa.debian.org/kernel-team/linux.git

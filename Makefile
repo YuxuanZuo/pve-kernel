@@ -30,7 +30,7 @@ SKIPABI=0
 
 BUILD_DIR=proxmox-kernel-$(KERNEL_VER)
 
-KERNEL_SRC=ubuntu-kernel
+KERNEL_SRC=debian-kernel
 KERNEL_SRC_SUBMODULE=submodules/$(KERNEL_SRC)
 KERNEL_CFG_ORG=config-$(KERNEL_VER).org
 
@@ -144,7 +144,7 @@ update_modules: submodule
 # make sure submodules were initialized
 .PHONY: submodule
 submodule:
-	test -f "$(KERNEL_SRC_SUBMODULE)/README" || git submodule update --init $(KERNEL_SRC_SUBMODULE)
+	test -f "$(KERNEL_SRC_SUBMODULE)/debian/rules" || git submodule update --init $(KERNEL_SRC_SUBMODULE)
 	test -f "$(ZFSONLINUX_SUBMODULE)/Makefile" || git submodule update --init --recursive $(ZFSONLINUX_SUBMODULE)
 
 # call after ABI bump with header deb in working directory
