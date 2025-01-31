@@ -103,6 +103,8 @@ $(KERNEL_SRC).prepared: $(KERNEL_SRC_SUBMODULE) | submodule
 	rm -rf $(BUILD_DIR)/$(KERNEL_SRC) $@
 	mkdir -p $(BUILD_DIR)
 	cp -a $(KERNEL_SRC_SUBMODULE) $(BUILD_DIR)/$(KERNEL_SRC)
+	cd $(BUILD_DIR); test -f linux_$(KERNEL_VER).orig.tar.xz || curl -f -O https://deb.debian.org/debian/pool/main/l/linux/linux_$(KERNEL_VER).orig.tar.xz
+	$(MAKE) -C $(BUILD_DIR)/$(KERNEL_SRC) -f debian/rules orig
 # TODO: split for archs, track and diff in our repository?
 	cat $(BUILD_DIR)/$(KERNEL_SRC)/debian/config/config \
 		$(BUILD_DIR)/$(KERNEL_SRC)/debian/config/kernelarch-$(KERNEL_ARCH)/config \
