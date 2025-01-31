@@ -104,7 +104,10 @@ $(KERNEL_SRC).prepared: $(KERNEL_SRC_SUBMODULE) | submodule
 	mkdir -p $(BUILD_DIR)
 	cp -a $(KERNEL_SRC_SUBMODULE) $(BUILD_DIR)/$(KERNEL_SRC)
 # TODO: split for archs, track and diff in our repository?
-	cd $(BUILD_DIR)/$(KERNEL_SRC); python3 debian/scripts/misc/annotations --arch amd64 --export >../../$(KERNEL_CFG_ORG)
+	cd $(BUILD_DIR)/$(KERNEL_SRC); python3 debian/bin/kconfig.py ../../$(KERNEL_CFG_ORG) \
+	    debian/config/config \
+	    debian/config/kernelarch-$(KERNEL_ARCH)/config \
+	    debian/config/$(ARCH)/config
 	cp $(KERNEL_CFG_ORG) $(BUILD_DIR)/$(KERNEL_SRC)/.config
 	sed -i $(BUILD_DIR)/$(KERNEL_SRC)/Makefile -e 's/^EXTRAVERSION.*$$/EXTRAVERSION=$(EXTRAVERSION)/'
 	rm -rf $(BUILD_DIR)/$(KERNEL_SRC)/debian $(BUILD_DIR)/$(KERNEL_SRC)/debian.master
