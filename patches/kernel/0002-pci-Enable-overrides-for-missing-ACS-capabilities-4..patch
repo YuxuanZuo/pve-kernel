@@ -55,13 +55,13 @@ Signed-off-by: Thomas Lamprecht <t.lamprecht@proxmox.com>
  2 files changed, 111 insertions(+)
 
 diff --git a/Documentation/admin-guide/kernel-parameters.txt b/Documentation/admin-guide/kernel-parameters.txt
-index 5ea6b2d54edaff9b7efa20235de92970cabcf769..e36ab4a38709f697860e785c1eb2e8c44f9f7b64 100644
+index 910a2bb07a52a5e796a37fb3aa7ca066d93c6e64..10bce510e77330abf563367007d1b4b1e4002c8c 100644
 --- a/Documentation/admin-guide/kernel-parameters.txt
 +++ b/Documentation/admin-guide/kernel-parameters.txt
-@@ -4422,6 +4422,15 @@
- 				Also, it enforces the PCI Local Bus spec
- 				rule that those bits should be 0 in system reset
- 				events (useful for kexec/kdump cases).
+@@ -4475,6 +4475,15 @@
+ 		nomsi		[MSI] If the PCI_MSI kernel config parameter is
+ 				enabled, this kernel boot option can be used to
+ 				disable the use of MSI interrupts system-wide.
 +		pci_acs_override =
 +				[PCIE] Override missing PCIe ACS support for:
 +				downstream
@@ -75,7 +75,7 @@ index 5ea6b2d54edaff9b7efa20235de92970cabcf769..e36ab4a38709f697860e785c1eb2e8c4
  				Safety option to keep boot IRQs enabled. This
  				should never be necessary.
 diff --git a/drivers/pci/quirks.c b/drivers/pci/quirks.c
-index bf02ee61a933403deba8ba7063d1732fc3ed540e..113e93b623616d787ad1b4d7619a2921069d587b 100644
+index 8103bc24a54ea49a3f61938dd620747d1d112b58..2101a0aa378f9321f5ad38bec768dc1bb1b98e88 100644
 --- a/drivers/pci/quirks.c
 +++ b/drivers/pci/quirks.c
 @@ -300,6 +300,106 @@ static int __init pci_apply_final_quirks(void)
@@ -185,7 +185,7 @@ index bf02ee61a933403deba8ba7063d1732fc3ed540e..113e93b623616d787ad1b4d7619a2921
  /*
   * Decoding should be disabled for a PCI device during BAR sizing to avoid
   * conflict. But doing so may cause problems on host bridge and perhaps other
-@@ -5121,6 +5221,8 @@ static const struct pci_dev_acs_enabled {
+@@ -5109,6 +5209,8 @@ static const struct pci_dev_acs_enabled {
  	{ PCI_VENDOR_ID_CAVIUM, 0xA060, pci_quirk_mf_endpoint_acs },
  	/* APM X-Gene */
  	{ PCI_VENDOR_ID_AMCC, 0xE004, pci_quirk_xgene_acs },
