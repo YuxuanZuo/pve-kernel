@@ -1,6 +1,6 @@
 [submodule "submodules/zfsonlinux"]
 	path = submodules/zfsonlinux
-	url = ../zfsonlinux
+	url = git://git.proxmox.com/git/zfsonlinux.git
 [submodule "submodules/debian-kernel"]
 	path = submodules/debian-kernel
 	url = https://salsa.debian.org/kernel-team/linux.git
