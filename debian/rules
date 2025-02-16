@@ -195,11 +195,11 @@ endif
 	find debian/$(PMX_KERNEL_PKG)/lib/modules -name \*.ko -print | while read f ; do strip --strip-debug "$$f"; done
 
 	# sign modules using ephemeral, embedded key
-	if grep -q CONFIG_MODULE_SIG=y ubuntu-kernel/.config ; then \
+	if grep -q CONFIG_MODULE_SIG=y debian-kernel/.config ; then \
 		find debian/$(PMX_KERNEL_PKG)/lib/modules -name \*.ko -print | while read f ; do \
-			./ubuntu-kernel/scripts/sign-file sha512 ./ubuntu-kernel/certs/signing_key.pem ubuntu-kernel/certs/signing_key.x509 "$$f" ; \
+			./debian-kernel/scripts/sign-file sha512 ./debian-kernel/certs/signing_key.pem debian-kernel/certs/signing_key.x509 "$$f" ; \
 		done; \
-		rm ./ubuntu-kernel/certs/signing_key.pem ; \
+		rm ./debian-kernel/certs/signing_key.pem ; \
 	fi
 	# finalize
 	/sbin/depmod -b debian/$(PMX_KERNEL_PKG)/ $(KVNAME)
