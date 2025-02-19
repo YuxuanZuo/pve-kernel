@@ -1,3 +1,9 @@
+proxmox-kernel-6.12 (6.12.9-1) bookworm; urgency=medium
+
+  * switch to the Debian kernel with tag debian/6.12.9-1_bpo12+1
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Thu, 20 Feb 2025 02:22:15 +0800
+
 proxmox-kernel-6.11 (6.11.11-1) bookworm; urgency=medium
 
   * updated sources to Ubuntu-6.11.0-13.14
