@@ -1,7 +1,7 @@
 Source: proxmox-kernel-@KVMAJMIN@
 Section: devel
 Priority: optional
-Maintainer: Proxmox Support Team <support@proxmox.com>
+Maintainer: Ethan Zuo <yuxuan.zuo@outlook.com>
 Build-Depends: asciidoc-base,
                automake,
                bc,
@@ -34,8 +34,8 @@ Build-Depends: asciidoc-base,
                zstd,
 Build-Conflicts: proxmox-headers-@KVNAME@,
 Standards-Version: 4.6.2
-Vcs-Git: git://git.proxmox.com/git/pve-kernel
-Vcs-Browser: https://git.proxmox.com/?p=pve-kernel.git
+Vcs-Git: https://github.com/YuxuanZuo/pve-kernel.git
+Vcs-Browser: https://github.com/YuxuanZuo/pve-kernel
 
 Package: linux-tools-@KVMAJMIN@
 Architecture: any
