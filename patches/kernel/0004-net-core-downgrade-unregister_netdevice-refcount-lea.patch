@@ -14,10 +14,10 @@ Signed-off-by: Fabian Grünbichler <f.gruenbichler@proxmox.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/net/core/dev.c b/net/core/dev.c
-index f3fa8353d262b03452844722c69951e7a46d8307..71783ff18a4c50d6c55a04c5b9c3baf380a4d1d0 100644
+index 1867a6a8d76da9d3e87bb6ccdd9db48784483174..5455153e37e620b99cc85ed98ecdf72f768a4894 100644
 --- a/net/core/dev.c
 +++ b/net/core/dev.c
-@@ -10725,7 +10725,7 @@ static struct net_device *netdev_wait_allrefs_any(struct list_head *list)
+@@ -10742,7 +10742,7 @@ static struct net_device *netdev_wait_allrefs_any(struct list_head *list)
  		if (time_after(jiffies, warning_time +
  			       READ_ONCE(netdev_unregister_timeout_secs) * HZ)) {
  			list_for_each_entry(dev, list, todo_list) {
