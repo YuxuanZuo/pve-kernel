@@ -1,3 +1,12 @@
+proxmox-kernel-6.12 (6.12.19-1) bookworm; urgency=medium
+
+  * update ZFS to include fix for ZVOL sync/flush regression that was
+    introduced with ZFS 2.2.7
+
+  * update submodule and patches for debian/6.12.19-1
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Fri, 04 Apr 2025 22:49:03 +0800
+
 proxmox-kernel-6.12 (6.12.12-1) bookworm; urgency=medium
 
   * updated sources to debian/6.12.12-1_bpo12+1
