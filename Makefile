@@ -114,10 +114,11 @@ $(KERNEL_SRC).prepared: $(KERNEL_SRC_SUBMODULE) | submodule
 	sed -i $(BUILD_DIR)/$(KERNEL_SRC)/Makefile -e 's/^EXTRAVERSION.*$$/EXTRAVERSION=$(EXTRAVERSION)/'
 	rm -rf $(BUILD_DIR)/$(KERNEL_SRC)/debian
 	set -e; cd $(BUILD_DIR)/$(KERNEL_SRC); \
-	  for patch in ../../patches/kernel/*.patch; do \
+	  while IFS= read -r patch || [ -n "$$patch" ]; do \
+	    [ -z "$$patch" ] && continue; \
 	    echo "applying patch '$$patch'"; \
-	    patch --batch -p1 < "$${patch}"; \
-	  done
+	    patch --batch -p1 < "../../patches/$$patch"; \
+	  done < ../../patches/series
 	touch $@
 
 $(MODULES).prepared: $(addsuffix .prepared,$(MODULE_DIRS))
