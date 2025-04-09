@@ -1,0 +1,29 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: "Kooran Paul, Princy" <princy.kooran.paul@intel.com>
+Date: Tue, 30 Jul 2024 10:03:29 +0800
+Subject: [PATCH] drm/i915/mtl: Copy c10 phy pll sw state from master to slave
+ for bigjoiner
+
+We try to verify pll registers in sw state for slave crtc with the hw state.
+However in case of bigjoiner we don't calculate those at all, so this verification
+will then always fail.
+So we should either skip the verification for Bigjoiner slave crtc or copy sw state
+from master crtc.
+
+Signed-off-by: Stanislav Lisovskiy <stanislav.lisovskiy@intel.com>
+---
+ drivers/gpu/drm/i915/display/intel_display.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/drivers/gpu/drm/i915/display/intel_display.c b/drivers/gpu/drm/i915/display/intel_display.c
+index d5eb8de645a9a321d98424b00e52f6fa55bd607f..240809867b6cef289add33bfdb2328d638fd393c 100644
+--- a/drivers/gpu/drm/i915/display/intel_display.c
++++ b/drivers/gpu/drm/i915/display/intel_display.c
+@@ -4561,6 +4561,7 @@ copy_joiner_crtc_state_modeset(struct intel_atomic_state *state,
+ 	drm_mode_copy(&secondary_crtc_state->hw.adjusted_mode,
+ 		      &primary_crtc_state->hw.adjusted_mode);
+ 	secondary_crtc_state->hw.scaling_filter = primary_crtc_state->hw.scaling_filter;
++	secondary_crtc_state->dpll_hw_state.cx0pll = primary_crtc_state->dpll_hw_state.cx0pll;
+ 
+ 	if (primary_crtc_state->dp_tunnel_ref.tunnel)
+ 		drm_dp_tunnel_ref_get(primary_crtc_state->dp_tunnel_ref.tunnel,
