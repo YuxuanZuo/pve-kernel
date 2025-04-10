@@ -744,51 +744,51 @@ EXPORT_SYMBOL	 drivers/gpu/drm/ttm/ttm 0xf0449f2a	ttm_pool_free
 EXPORT_SYMBOL	 drivers/gpu/drm/ttm/ttm 0xf6ee7490	ttm_bo_vm_reserve
 EXPORT_SYMBOL	 drivers/gpu/drm/ttm/ttm 0xf71c6bbc	ttm_bo_pin
 EXPORT_SYMBOL	 drivers/hid/hid 0x7d61ad68	hid_bus_type
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x02c44d17	ishtp_recv
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x0317376f	ishtp_cl_get_tx_free_rings
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x0abd17f0	ishtp_set_rx_ring_size
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x0f4e3422	ishtp_trace_callback
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x12a3d444	ishtp_put_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x21082fc3	ishtp_get_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x222784bb	ishtp_device_init
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x2f0efa42	ishtp_cl_unlink
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x329d8469	ishtp_cl_set_fw_client_id
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x3975f7a0	ish_hw_reset
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x3b98b496	ishtp_dev_to_cl_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x40b49b4b	ishtp_cl_allocate
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x46395f68	ishtp_get_ishtp_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x49edd235	ishtp_cl_driver_register
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x4b0bc986	ishtp_cl_get_tx_free_buffer_size
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x576c8b87	ishtp_cl_tx_empty
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x5ca86aa9	ishtp_send_suspend
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x0187a360	ishtp_cl_set_fw_client_id
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x023099e0	ishtp_dev_to_cl_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x02f3ef6e	ishtp_get_client_data
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x0914937e	ishtp_set_tx_ring_size
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x10f68dbf	ishtp_fw_cl_by_uuid
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x2287d366	ishtp_set_drvdata
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x334ec852	ishtp_get_ishtp_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x3a7c66bd	ishtp_recv
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x3bfbba0a	ishtp_cl_get_tx_free_rings
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x43120916	ishtp_reset_handler
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x435447b7	ishtp_cl_disconnect
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x44dc0067	ishtp_cl_driver_register
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x45cc282c	ishtp_put_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x46a0004f	ishtp_bus_remove_all_clients
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x49450f7f	ishtp_cl_establish_connection
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x495d8a3f	ishtp_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x5469327b	ish_hw_reset
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x564a8c12	ishtp_set_connection_state
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x59fed3fb	ishtp_start
 EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x5f9b0501	ishtp_get_fw_client_id
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x65f25e86	ishtp_cl_link
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x6d0f839e	ishtp_cl_establish_connection
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x71735f89	ishtp_send_resume
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x7507a71b	ishtp_set_drvdata
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x7fcd43f1	ishtp_cl_destroy_connection
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x84f72573	ishtp_reset_handler
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x8a0e4a25	ishtp_get_drvdata
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x8b1d3ea1	ishtp_reset_compl_handler
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x8b5e0bde	ishtp_cl_connect
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x8c8e24d9	ishtp_get_client_data
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x910aa698	ishtp_set_tx_ring_size
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x91c5d464	ishtp_cl_rx_get_rb
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x93c68c1a	ishtp_start
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x94122004	ishtp_cl_flush_queues
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xa368443a	ishtp_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xafd9b3ac	ishtp_get_pci_device
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xb5b89379	ishtp_set_connection_state
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xb5db9434	ishtp_set_client_data
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xbe8f1a34	ishtp_cl_disconnect
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xc073d3b0	ishtp_cl_io_rb_recycle
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xd6894e4c	ishtp_cl_driver_unregister
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xe9baeddf	ishtp_fw_cl_get_client
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xedeefffa	ishtp_fw_cl_by_uuid
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xf18bb830	ishtp_bus_remove_all_clients
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xf3ed44ed	ishtp_cl_free
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xfafbe406	ishtp_register_event_cb
-EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xff99af6f	ishtp_cl_send
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x641c507e	ishtp_get_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x66f73ccf	ishtp_cl_unlink
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x73efa909	ishtp_cl_allocate
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x760c2c32	ishtp_set_rx_ring_size
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x7d9e6eb2	ishtp_cl_rx_get_rb
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0x85f39527	ishtp_cl_link
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xaa36b630	ishtp_fw_cl_get_client
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xb6e15109	ishtp_cl_send
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xb85fde5c	ishtp_cl_io_rb_recycle
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xbda24acd	ishtp_cl_driver_unregister
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xc3616e33	ishtp_reset_compl_handler
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xc81e588f	ishtp_device_init
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xca02e15d	ishtp_trace_callback
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xcc2bd9e5	ishtp_cl_tx_empty
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xce6e4c53	ishtp_cl_destroy_connection
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xd37d0f04	ishtp_send_suspend
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xd5b1a1e0	ishtp_cl_flush_queues
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xd82d8b39	ishtp_get_drvdata
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xe8048ee1	ishtp_register_event_cb
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xe8f89597	ishtp_cl_get_tx_free_buffer_size
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xeaf25dc7	ishtp_cl_connect
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xedc9ed7f	ishtp_send_resume
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xf3be081e	ishtp_get_pci_device
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xf6aaa2d7	ishtp_cl_free
+EXPORT_SYMBOL	 drivers/hid/intel-ish-hid/intel-ishtp 0xfa8cfeb9	ishtp_set_client_data
 EXPORT_SYMBOL	 drivers/hv/hv_vmbus 0x2f833471	vmbus_recvpacket
 EXPORT_SYMBOL	 drivers/hv/hv_vmbus 0x7054b241	vmbus_sendpacket
 EXPORT_SYMBOL	 drivers/hv/hv_vmbus 0xcae53451	vmbus_sendpacket_getid
@@ -3033,6 +3033,7 @@ EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtlwifi/rtlwifi 0xebedfe5f	rtl_wowla
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtlwifi/rtlwifi 0xed7c8cf2	rtl_evm_db_to_percentage
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtlwifi/rtlwifi 0xf35276d0	rtl_phy_scan_operation_backup
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtlwifi/rtlwifi 0xf7dc9509	rtl_collect_scan_list
+EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtw88/rtw88_8703b 0x70f33dcb	rtw8703b_hw_spec
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtw88/rtw88_8723d 0x6ce9d5a7	rtw8723d_hw_spec
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtw88/rtw88_8723x 0xf6f44c06	rtw8723x_common
 EXPORT_SYMBOL	 drivers/net/wireless/realtek/rtw88/rtw88_8821c 0xf129a22a	rtw8821c_hw_spec
@@ -4375,22 +4376,19 @@ EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x2a6b7d5b	__hci_cmd_sync_ev
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x2e8704a7	bt_sock_linked
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x2f45c587	hci_reset_dev
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x3261b0c6	bt_sock_recvmsg
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x350eb609	l2cap_chan_close
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x35e3c7e5	hci_cmd_sync_dequeue_once
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x38561ef0	bt_sock_ioctl
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x3a688c8c	l2cap_register_user
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x3b3ad37d	l2cap_unregister_user
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x38c3406a	hci_unregister_cb
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x40158bf1	bt_sock_unlink
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x4d25b0f9	hci_register_cb
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x453a9134	l2cap_conn_get
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x4d49c881	l2cap_is_socket
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x4e5327e3	hci_conn_switch_role
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x4fa9a411	hci_mgmt_chan_register
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x5348be5d	bt_accept_enqueue
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x5c0ba327	hci_unregister_cb
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x616331a3	l2cap_conn_get
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x63967ca1	bt_sock_wait_ready
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x685d7bc1	bt_accept_unlink
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x717bc00f	bt_accept_dequeue
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x72d3b7b2	hci_register_cb
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x77e0a73b	hci_alloc_dev_priv
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x789b1df1	hci_resume_dev
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x7aad008b	bt_to_errno
@@ -4402,6 +4400,7 @@ EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x7f155b03	hci_cmd_sync_queue_once
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x81547279	hci_cmd_sync_lookup_entry
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x81c126e5	__hci_cmd_sync_status_sk
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x84183ac0	bt_sock_poll
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x858080e4	l2cap_register_user
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x85808540	hci_devcd_register
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x88a5f83c	hci_conn_security
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0x8d4c2e90	bt_sock_wait_state
@@ -4426,8 +4425,10 @@ EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xb54d5d40	hci_cmd_sync_submit
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xb63e86a9	hci_cmd_sync_status
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xb7289a45	hci_cmd_sync_cancel_entry
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xb87341da	bt_sock_reclassify_lock
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xc519c216	l2cap_unregister_user
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xcbaa883f	bt_sock_register
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xd7613212	bt_err_ratelimited
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xd9b97f63	l2cap_chan_close
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xddacccf6	bt_warn_ratelimited
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xddc98783	hci_free_dev
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xe1492171	hci_set_hw_info
@@ -4435,7 +4436,7 @@ EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xe1bd2930	hci_devcd_abort
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xe2f1c074	__hci_cmd_send
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xeb601cea	hci_set_fw_info
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xf6113f53	hci_conn_check_secure
-EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xf81ad72b	l2cap_conn_put
+EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xfa930937	l2cap_conn_put
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xfb79fe83	hci_mgmt_chan_unregister
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xfc61b049	hci_recv_diag
 EXPORT_SYMBOL	 net/bluetooth/bluetooth 0xfd28009a	hci_recv_frame
@@ -12763,7 +12764,7 @@ EXPORT_SYMBOL_GPL	 drivers/hid/i2c-hid/i2c-hid 0x51665beb	i2c_hid_core_remove
 EXPORT_SYMBOL_GPL	 drivers/hid/i2c-hid/i2c-hid 0xae0f3003	i2c_hid_core_shutdown
 EXPORT_SYMBOL_GPL	 drivers/hid/i2c-hid/i2c-hid 0xbecb1813	i2c_hid_core_pm
 EXPORT_SYMBOL_GPL	 drivers/hid/i2c-hid/i2c-hid 0xcc823b15	i2c_hid_core_probe
-EXPORT_SYMBOL_GPL	 drivers/hid/intel-ish-hid/intel-ishtp 0x673a1ba1	ishtp_wait_resume
+EXPORT_SYMBOL_GPL	 drivers/hid/intel-ish-hid/intel-ishtp 0xeee9f66a	ishtp_wait_resume
 EXPORT_SYMBOL_GPL	 drivers/hid/surface-hid/surface_hid_core 0x22ac3d73	surface_hid_device_add
 EXPORT_SYMBOL_GPL	 drivers/hid/surface-hid/surface_hid_core 0x5fb26398	surface_hid_pm_ops
 EXPORT_SYMBOL_GPL	 drivers/hid/surface-hid/surface_hid_core 0xf7dc1477	surface_hid_device_destroy
@@ -15938,18 +15939,18 @@ EXPORT_SYMBOL_GPL	 drivers/nvme/host/nvme-fc 0x8a9cf5a7	nvme_fc_set_remoteport_d
 EXPORT_SYMBOL_GPL	 drivers/nvme/host/nvme-fc 0xbb0e18a6	nvme_fc_rcv_ls_req
 EXPORT_SYMBOL_GPL	 drivers/nvme/host/nvme-fc 0xcc8a2d78	nvme_fc_io_getuuid
 EXPORT_SYMBOL_GPL	 drivers/nvme/host/nvme-fc 0xfca9dc99	nvme_fc_unregister_remoteport
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x0ea247aa	nvmet_sq_destroy
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x1d914deb	nvmet_register_transport
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x210b5f25	nvmet_req_uninit
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x00d5de44	nvmet_unregister_transport
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x07f5a19a	nvmet_req_alloc_sgls
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x12c9b159	nvmet_check_transfer_len
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x138d5b8b	nvmet_register_transport
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x1d91a3be	nvmet_req_free_sgls
 EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x3e0ef07a	nvmet_wq
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x450b42ef	nvmet_unregister_transport
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x6add4198	nvmet_req_free_sgls
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x745a55d0	nvmet_check_transfer_len
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x74eba22e	nvmet_sq_init
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x773e19d4	nvmet_ctrl_fatal_error
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xd3bb1334	nvmet_req_alloc_sgls
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xe4018874	nvmet_req_init
-EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xf6d27cdd	nvmet_req_complete
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0x6e5d404b	nvmet_req_uninit
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xa3c43984	nvmet_req_init
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xbac3a0e5	nvmet_req_complete
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xc096901b	nvmet_ctrl_fatal_error
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xee34a5d4	nvmet_sq_destroy
+EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet 0xf64b157d	nvmet_sq_init
 EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet-fc 0x0b98123d	nvmet_fc_rcv_ls_req
 EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet-fc 0x4a013682	nvmet_fc_invalidate_host
 EXPORT_SYMBOL_GPL	 drivers/nvme/target/nvmet-fc 0x6ff62dab	nvmet_fc_rcv_fcp_abort
@@ -17787,15 +17788,15 @@ EXPORT_SYMBOL_GPL	 net/atm/atm 0xcfb6a3da	unregister_atmdevice_notifier
 EXPORT_SYMBOL_GPL	 net/ax25/ax25 0x529fa52a	ax25_register_pid
 EXPORT_SYMBOL_GPL	 net/ax25/ax25 0xac93ae05	ax25_bcast
 EXPORT_SYMBOL_GPL	 net/ax25/ax25 0xaeb7451e	ax25_defaddr
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x4b1c9306	l2cap_chan_create
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x70051a8d	l2cap_chan_connect
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x72a67505	l2cap_chan_set_defaults
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x74501894	l2cap_chan_send
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x0aa160c0	l2cap_chan_set_defaults
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x0caccdb5	l2cap_add_psm
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x248ff727	l2cap_chan_put
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x2952a8c5	l2cap_chan_del
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x4c7ed282	l2cap_chan_list
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x5644c0b4	l2cap_chan_send
 EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0x8a7b4646	bt_debugfs
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xc0e183e3	l2cap_chan_del
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xcbf56ac1	l2cap_chan_list
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xe34b5d02	l2cap_add_psm
-EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xf111d511	l2cap_chan_put
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xb86b2ef8	l2cap_chan_connect
+EXPORT_SYMBOL_GPL	 net/bluetooth/bluetooth 0xe59757e5	l2cap_chan_create
 EXPORT_SYMBOL_GPL	 net/bridge/bridge 0x0ce5935b	br_vlan_get_pvid
 EXPORT_SYMBOL_GPL	 net/bridge/bridge 0x19562ebb	br_forward
 EXPORT_SYMBOL_GPL	 net/bridge/bridge 0x2dbe1964	br_multicast_has_querier_anywhere
@@ -18264,11 +18265,11 @@ EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x0e33c639	nft_register_flowtable_typ
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x0e9f72ef	nft_meta_set_destroy
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x1ed009d2	nft_meta_get_eval
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x205711d8	nft_ct_get_fast_eval
+EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x20a3cbe8	nf_tables_trans_destroy_flush_work
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x22fb8eae	__nft_reg_track_cancel
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x256d52f0	nft_reg_track_update
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x29b1d172	nft_register_expr
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x2e91f12d	__nft_release_basechain
-EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x3251d762	nf_tables_trans_destroy_flush_work
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x32a0dad2	nft_obj_notify
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x3acacbd6	nft_chain_validate_dependency
 EXPORT_SYMBOL_GPL	 net/netfilter/nf_tables 0x3cdb9819	nft_meta_get_dump
@@ -19304,7 +19305,11 @@ EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-rt5682 0xf3218f8a	rt5682_sel_asrc_cl
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-rt5682s 0x83fc9b0b	rt5682s_sel_asrc_clk_src
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x083b3ae1	tasdevice_dev_bulk_read
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x19ec160f	tasdev_chn_switch
+EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x217bc567	tasdevice_digital_getvol
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x27a8fc37	tasdevice_dev_write
+EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x2b5831df	tasdevice_amp_putvol
+EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x360f2e00	tasdevice_amp_getvol
+EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x3c2cdab8	tasdevice_digital_putvol
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x3dd16df9	tasdevice_kzalloc
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x5df9aacb	tascodec_init
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x65820b1f	tasdevice_dev_bulk_write
@@ -19313,11 +19318,7 @@ EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x7fe64f04	tasdevice_
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x98b1d18d	tasdevice_apply_calibration
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0x9a6574c7	tasdevice_reset
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xa1915a6e	tasdevice_save_calibration
-EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xb41a07ec	tasdevice_digital_putvol
-EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xb4708256	tasdevice_amp_getvol
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xd60d28da	tasdevice_dsp_remove
-EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xdaac8fc0	tasdevice_digital_getvol
-EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xdac60a7a	tasdevice_amp_putvol
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xe0b990ba	tasdevice_init
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-tas2781-comlib 0xee809788	tasdevice_remove
 EXPORT_SYMBOL_GPL	 sound/soc/codecs/snd-soc-ts3a227e 0xc88a5691	ts3a227e_enable_jack_detect
@@ -20128,7 +20129,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x156e8afe	__SCT__tp_func_fib6_table_lookup
 EXPORT_SYMBOL_GPL	 vmlinux 0x15711e58	tcp_ca_openreq_child
 EXPORT_SYMBOL_GPL	 vmlinux 0x157a45e4	acpi_device_fix_up_power_children
 EXPORT_SYMBOL_GPL	 vmlinux 0x1582a7ad	blk_update_request
-EXPORT_SYMBOL_GPL	 vmlinux 0x15982e78	lwtunnel_cmp_encap
 EXPORT_SYMBOL_GPL	 vmlinux 0x15ade1cc	filter_irq_stacks
 EXPORT_SYMBOL_GPL	 vmlinux 0x15bd7435	psi_memstall_leave
 EXPORT_SYMBOL_GPL	 vmlinux 0x15d35a7e	get_rcu_tasks_gp_kthread
@@ -20513,6 +20513,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x25f87992	fpu_alloc_guest_fpstate
 EXPORT_SYMBOL_GPL	 vmlinux 0x262305a4	gpiochip_add_pin_range
 EXPORT_SYMBOL_GPL	 vmlinux 0x262a7063	xen_start_info
 EXPORT_SYMBOL_GPL	 vmlinux 0x262d0a00	dev_pm_opp_adjust_voltage
+EXPORT_SYMBOL_GPL	 vmlinux 0x26407d50	lwtunnel_state_alloc
 EXPORT_SYMBOL_GPL	 vmlinux 0x2645fc4b	class_remove_file_ns
 EXPORT_SYMBOL_GPL	 vmlinux 0x26520970	vm_memory_committed
 EXPORT_SYMBOL_GPL	 vmlinux 0x26598723	crypto_lskcipher_setkey
@@ -21321,6 +21322,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x4828e77b	acpi_scan_lock_acquire
 EXPORT_SYMBOL_GPL	 vmlinux 0x48294444	sysfs_create_link_nowarn
 EXPORT_SYMBOL_GPL	 vmlinux 0x4831ba1a	acpi_subsys_poweroff
 EXPORT_SYMBOL_GPL	 vmlinux 0x483a40f5	switchdev_port_obj_add
+EXPORT_SYMBOL_GPL	 vmlinux 0x483d1c97	lwtunnel_build_state
 EXPORT_SYMBOL_GPL	 vmlinux 0x48449083	spi_bus_lock
 EXPORT_SYMBOL_GPL	 vmlinux 0x4852a241	tdx_hcall_get_quote
 EXPORT_SYMBOL_GPL	 vmlinux 0x486dedc3	ghes_unregister_vendor_record_notifier
@@ -21684,7 +21686,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x574f2b8a	mm_unaccount_pinned_pages
 EXPORT_SYMBOL_GPL	 vmlinux 0x57719632	gnttab_grant_foreign_access
 EXPORT_SYMBOL_GPL	 vmlinux 0x57775150	shash_no_setkey
 EXPORT_SYMBOL_GPL	 vmlinux 0x577f06b3	crypto_schedule_test
-EXPORT_SYMBOL_GPL	 vmlinux 0x57820e43	lwtstate_free
 EXPORT_SYMBOL_GPL	 vmlinux 0x57861a5c	gds_ucode_mitigated
 EXPORT_SYMBOL_GPL	 vmlinux 0x5788156c	device_get_phy_mode
 EXPORT_SYMBOL_GPL	 vmlinux 0x578eeb4d	hugetlb_cgrp_subsys_enabled_key
@@ -22263,7 +22264,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x6ffce680	x86_cpu_has_min_microcode_rev
 EXPORT_SYMBOL_GPL	 vmlinux 0x7006586e	iommu_get_group_resv_regions
 EXPORT_SYMBOL_GPL	 vmlinux 0x70138e9e	auxiliary_find_device
 EXPORT_SYMBOL_GPL	 vmlinux 0x701658b8	generic_fh_to_parent
-EXPORT_SYMBOL_GPL	 vmlinux 0x701ffd3c	lwtunnel_encap_add_ops
 EXPORT_SYMBOL_GPL	 vmlinux 0x7027b412	sk_free_unlock_clone
 EXPORT_SYMBOL_GPL	 vmlinux 0x702ae311	wakeup_source_add
 EXPORT_SYMBOL_GPL	 vmlinux 0x70371f49	wp_shared_mapping_range
@@ -22383,6 +22383,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x74e0a638	irq_get_irq_data
 EXPORT_SYMBOL_GPL	 vmlinux 0x74e5a84f	blk_add_driver_data
 EXPORT_SYMBOL_GPL	 vmlinux 0x74e73871	housekeeping_overridden
 EXPORT_SYMBOL_GPL	 vmlinux 0x74ea7287	crypto_unregister_ahash
+EXPORT_SYMBOL_GPL	 vmlinux 0x74f027e7	lwtunnel_xmit
 EXPORT_SYMBOL_GPL	 vmlinux 0x74f5eacb	subsys_virtual_register
 EXPORT_SYMBOL_GPL	 vmlinux 0x7504562b	regulator_set_soft_start_regmap
 EXPORT_SYMBOL_GPL	 vmlinux 0x750677cd	clk_register_divider_table
@@ -22835,7 +22836,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x87c6bfc1	gpio_device_get
 EXPORT_SYMBOL_GPL	 vmlinux 0x87d9db08	crypto_ahash_final
 EXPORT_SYMBOL_GPL	 vmlinux 0x87e64181	amd_nb_has_feature
 EXPORT_SYMBOL_GPL	 vmlinux 0x87ee005e	get_current_tty
-EXPORT_SYMBOL_GPL	 vmlinux 0x87ee026c	lwtunnel_encap_del_ops
 EXPORT_SYMBOL_GPL	 vmlinux 0x880077ca	pm_genpd_init
 EXPORT_SYMBOL_GPL	 vmlinux 0x88180598	simple_attr_open
 EXPORT_SYMBOL_GPL	 vmlinux 0x881cd400	nvmem_layout_unregister
@@ -22855,6 +22855,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x88da8925	irq_domain_push_irq
 EXPORT_SYMBOL_GPL	 vmlinux 0x88f7bfb8	power_supply_battery_bti_in_range
 EXPORT_SYMBOL_GPL	 vmlinux 0x88ff94ea	vp_legacy_set_status
 EXPORT_SYMBOL_GPL	 vmlinux 0x89022dd8	serdev_device_set_tiocm
+EXPORT_SYMBOL_GPL	 vmlinux 0x890a867f	lwtunnel_output
 EXPORT_SYMBOL_GPL	 vmlinux 0x890fa0fa	btree_get_prev
 EXPORT_SYMBOL_GPL	 vmlinux 0x891a5a7f	gnttab_max_grant_frames
 EXPORT_SYMBOL_GPL	 vmlinux 0x891a7392	acpi_dev_get_property
@@ -23204,6 +23205,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0x977b7201	devl_dpipe_table_register
 EXPORT_SYMBOL_GPL	 vmlinux 0x977be5c7	klist_iter_init_node
 EXPORT_SYMBOL_GPL	 vmlinux 0x9780f909	fwnode_name_eq
 EXPORT_SYMBOL_GPL	 vmlinux 0x978f7652	folio_mkclean
+EXPORT_SYMBOL_GPL	 vmlinux 0x97942842	lwtunnel_get_encap_size
 EXPORT_SYMBOL_GPL	 vmlinux 0x97aa4ad5	bio_check_pages_dirty
 EXPORT_SYMBOL_GPL	 vmlinux 0x97c3291c	fb_deferred_io_mmap
 EXPORT_SYMBOL_GPL	 vmlinux 0x97cf509c	__netdev_watchdog_up
@@ -23406,6 +23408,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xa0994320	devlink_fmsg_obj_nest_start
 EXPORT_SYMBOL_GPL	 vmlinux 0xa09b0af5	irq_chip_set_vcpu_affinity_parent
 EXPORT_SYMBOL_GPL	 vmlinux 0xa09bb11c	pci_disable_sriov
 EXPORT_SYMBOL_GPL	 vmlinux 0xa0a88e25	serdev_controller_alloc
+EXPORT_SYMBOL_GPL	 vmlinux 0xa0a8fff8	lwtunnel_encap_add_ops
 EXPORT_SYMBOL_GPL	 vmlinux 0xa0ac87b1	get_user_pages_fast_only
 EXPORT_SYMBOL_GPL	 vmlinux 0xa0b7682c	crypto_default_rng
 EXPORT_SYMBOL_GPL	 vmlinux 0xa0c0f1d7	__SCT__tp_func_neigh_timer_handler
@@ -23829,12 +23832,13 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xb2f1d2c0	driver_attach
 EXPORT_SYMBOL_GPL	 vmlinux 0xb2f7dbdf	bd_unlink_disk_holder
 EXPORT_SYMBOL_GPL	 vmlinux 0xb2fa093e	blk_mq_map_queues
 EXPORT_SYMBOL_GPL	 vmlinux 0xb30b2bda	preempt_model_full
-EXPORT_SYMBOL_GPL	 vmlinux 0xb31b26a0	lwtunnel_state_alloc
+EXPORT_SYMBOL_GPL	 vmlinux 0xb310743a	lwtstate_free
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3253ed9	hpet_rtc_timer_init
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3293221	register_user_hw_breakpoint
 EXPORT_SYMBOL_GPL	 vmlinux 0xb32fdc18	xas_find_marked
 EXPORT_SYMBOL_GPL	 vmlinux 0xb375c8f1	thermal_cooling_device_register
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3925439	unregister_asymmetric_key_parser
+EXPORT_SYMBOL_GPL	 vmlinux 0xb3a1a5eb	page_get_link_raw
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3a65ddb	pinctrl_register
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3b8af8f	irq_chip_request_resources_parent
 EXPORT_SYMBOL_GPL	 vmlinux 0xb3bef046	crypto_grab_shash
@@ -23990,6 +23994,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xba01ec83	hv_stimer_global_cleanup
 EXPORT_SYMBOL_GPL	 vmlinux 0xba1bf9f7	vchan_dma_desc_free_list
 EXPORT_SYMBOL_GPL	 vmlinux 0xba220db7	__wake_up_sync_key
 EXPORT_SYMBOL_GPL	 vmlinux 0xba26d7d4	tpm_get_timeouts
+EXPORT_SYMBOL_GPL	 vmlinux 0xba285f91	lwtunnel_cmp_encap
 EXPORT_SYMBOL_GPL	 vmlinux 0xba2b7f64	cpufreq_generic_get
 EXPORT_SYMBOL_GPL	 vmlinux 0xba4df75f	accel_open
 EXPORT_SYMBOL_GPL	 vmlinux 0xba5182e2	housekeeping_affine
@@ -24199,7 +24204,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xc3d2b949	gnttab_pages_set_private
 EXPORT_SYMBOL_GPL	 vmlinux 0xc3de65ff	ring_buffer_bytes_cpu
 EXPORT_SYMBOL_GPL	 vmlinux 0xc3e46707	get_net_ns
 EXPORT_SYMBOL_GPL	 vmlinux 0xc3ea5305	iommu_default_passthrough
-EXPORT_SYMBOL_GPL	 vmlinux 0xc3ffca4f	lwtunnel_fill_encap
 EXPORT_SYMBOL_GPL	 vmlinux 0xc4008d55	xen_have_vector_callback
 EXPORT_SYMBOL_GPL	 vmlinux 0xc4052fd7	extract_iter_to_sg
 EXPORT_SYMBOL_GPL	 vmlinux 0xc410330f	dev_pm_opp_get_required_pstate
@@ -24472,7 +24476,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xcf02ab71	__SCT__tp_func_block_rq_remap
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf038ec9	thermal_remove_hwmon_sysfs
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf07aed1	gpiochip_generic_config
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf083c6e	regmap_field_free
-EXPORT_SYMBOL_GPL	 vmlinux 0xcf0f3b1e	lwtunnel_xmit
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf30970d	dpll_device_register
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf32f63a	pstore_register
 EXPORT_SYMBOL_GPL	 vmlinux 0xcf35629e	__traceiter_ipi_send_cpumask
@@ -24485,7 +24488,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xcf92eda6	iommu_attach_device
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfb0bbe8	bio_associate_blkg
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfb6d727	devl_linecard_create
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfb82f4f	inet_ehashfn
-EXPORT_SYMBOL_GPL	 vmlinux 0xcfb85c88	lwtunnel_output
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfc7b4e4	rcu_barrier_tasks_trace
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfd01c14	__blkg_prfill_u64
 EXPORT_SYMBOL_GPL	 vmlinux 0xcfd30d71	acpi_os_map_memory
@@ -24967,7 +24969,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xe45133d9	vp_legacy_get_driver_features
 EXPORT_SYMBOL_GPL	 vmlinux 0xe45419fb	dev_pm_qos_add_ancestor_request
 EXPORT_SYMBOL_GPL	 vmlinux 0xe457214e	blk_mq_queue_inflight
 EXPORT_SYMBOL_GPL	 vmlinux 0xe45c8ace	iomap_dio_bio_end_io
-EXPORT_SYMBOL_GPL	 vmlinux 0xe45e1251	lwtunnel_input
+EXPORT_SYMBOL_GPL	 vmlinux 0xe46f9863	lwtunnel_input
 EXPORT_SYMBOL_GPL	 vmlinux 0xe471ac8d	device_property_present
 EXPORT_SYMBOL_GPL	 vmlinux 0xe4751ae0	clk_hw_register_fractional_divider
 EXPORT_SYMBOL_GPL	 vmlinux 0xe48611ac	trace_clock_global
@@ -25057,6 +25059,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xe8127b0a	rtnl_af_unregister
 EXPORT_SYMBOL_GPL	 vmlinux 0xe83eba32	itlb_multihit_kvm_mitigation
 EXPORT_SYMBOL_GPL	 vmlinux 0xe83fcf9e	pci_set_cacheline_size
 EXPORT_SYMBOL_GPL	 vmlinux 0xe84f6e5c	pciserial_remove_ports
+EXPORT_SYMBOL_GPL	 vmlinux 0xe852a34c	lwtunnel_encap_del_ops
 EXPORT_SYMBOL_GPL	 vmlinux 0xe862c4b7	dpm_suspend_start
 EXPORT_SYMBOL_GPL	 vmlinux 0xe8654fd8	tpm_buf_init
 EXPORT_SYMBOL_GPL	 vmlinux 0xe86bbd98	netdev_rx_handler_register
@@ -25067,6 +25070,7 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xe8c0065d	memory_group_register_static
 EXPORT_SYMBOL_GPL	 vmlinux 0xe8c2ea6f	dev_pm_opp_put
 EXPORT_SYMBOL_GPL	 vmlinux 0xe8cc8cdb	skb_zerocopy_iter_stream
 EXPORT_SYMBOL_GPL	 vmlinux 0xe8e235c8	arch_static_call_transform
+EXPORT_SYMBOL_GPL	 vmlinux 0xe8f1c6bb	lwtunnel_fill_encap
 EXPORT_SYMBOL_GPL	 vmlinux 0xe911df29	eventfd_ctx_do_read
 EXPORT_SYMBOL_GPL	 vmlinux 0xe918ce26	clk_divider_ro_ops
 EXPORT_SYMBOL_GPL	 vmlinux 0xe9379e8a	__traceiter_contention_end
@@ -25172,7 +25176,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xed900faf	pci_check_and_unmask_intx
 EXPORT_SYMBOL_GPL	 vmlinux 0xeda7965b	mptcp_pm_get_subflows_max
 EXPORT_SYMBOL_GPL	 vmlinux 0xedb0d088	blk_integrity_profile_name
 EXPORT_SYMBOL_GPL	 vmlinux 0xedbf13fa	bpf_trace_run2
-EXPORT_SYMBOL_GPL	 vmlinux 0xedbf5dd5	lwtunnel_get_encap_size
 EXPORT_SYMBOL_GPL	 vmlinux 0xede9a09a	btree_lookup
 EXPORT_SYMBOL_GPL	 vmlinux 0xedef41ff	dma_can_mmap
 EXPORT_SYMBOL_GPL	 vmlinux 0xedf01ab8	perf_event_update_userpage
@@ -25606,7 +25609,6 @@ EXPORT_SYMBOL_GPL	 vmlinux 0xffd5b661	devm_regulator_get_exclusive
 EXPORT_SYMBOL_GPL	 vmlinux 0xffdc1222	ping_init_sock
 EXPORT_SYMBOL_GPL	 vmlinux 0xffdd0032	auxiliary_device_sysfs_irq_remove
 EXPORT_SYMBOL_GPL	 vmlinux 0xffdf10ad	mnt_want_write_file
-EXPORT_SYMBOL_GPL	 vmlinux 0xffead17e	lwtunnel_build_state
 FIRMWARE_LOADER_PRIVATE EXPORT_SYMBOL_GPL 0x07342898	unregister_firmware_config_sysctl	vmlinux
 FIRMWARE_LOADER_PRIVATE EXPORT_SYMBOL_GPL 0xae43feea	register_firmware_config_sysctl	vmlinux
 FIRMWARE_LOADER_PRIVATE EXPORT_SYMBOL_GPL 0xd3ae7756	fw_fallback_config	vmlinux
@@ -25656,43 +25658,52 @@ I2C_DW_COMMON EXPORT_SYMBOL_GPL 0x2e6107ae	i2c_dw_disable	vmlinux
 I2C_DW_COMMON EXPORT_SYMBOL_GPL 0xaa5d38aa	i2c_dw_prepare_clk	vmlinux
 I2C_DW_COMMON EXPORT_SYMBOL_GPL 0xcf247874	i2c_dw_fw_parse_and_configure	vmlinux
 I2C_DW_COMMON EXPORT_SYMBOL_GPL 0xef67222b	i2c_dw_probe	vmlinux
-I915_GVT EXPORT_SYMBOL_GPL 0x00760c28	i915_request_wait	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x02b968d6	i915_gem_ww_ctx_fini	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x07016411	__i915_gem_object_flush_map	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x0d8582cf	i915_gem_gtt_insert	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x126f5de8	intel_uncore_forcewake_for_reg	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x150429d2	i915_gem_object_pin_map	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x1ece2c8e	i915_reserve_fence	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x1f111627	i915_gem_object_init	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x21bdb5d8	intel_ring_begin	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x355e771b	i915_gem_ww_ctx_backoff	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x1a50dac9	i915_gem_object_pin_map	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x1e2e7386	intel_gvt_iterate_mmio_table	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x2d1bd35e	i915_gem_ww_ctx_backoff	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x3795664b	i915_gem_ww_ctx_init	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x38616be8	i915_gem_object_init	drivers/gpu/drm/i915/i915
 I915_GVT EXPORT_SYMBOL_GPL 0x38b91c5b	i915_fence_ops	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x39354bde	intel_context_create	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x41eb41b0	intel_gvt_iterate_mmio_table	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x4f5182b1	intel_runtime_pm_put_unchecked	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x510b8e75	_i915_vma_move_to_active	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x54c6c1ca	i915_unreserve_fence	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x56f1b72e	i915_gem_object_set_to_cpu_domain	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x6230a324	__intel_context_do_unpin	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x3a93907b	i915_unreserve_fence	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x3eedf591	i915_gem_gtt_insert	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x44e835d2	i915_gem_object_set_to_cpu_domain	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x58025098	i915_reserve_fence	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x5a743137	__intel_context_do_pin	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x5a9e81d1	i915_request_create	drivers/gpu/drm/i915/i915
 I915_GVT EXPORT_SYMBOL_GPL 0x64e19f5f	shmem_pin_map	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x7a2b1c66	intel_gvt_set_ops	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x7b51e0a7	i915_ppgtt_create	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x7e3c0bff	i915_gem_object_alloc	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x77b8b451	i915_request_wait	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x7c3be511	__intel_context_do_unpin	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x8317531f	intel_uncore_forcewake_put	drivers/gpu/drm/i915/i915
 I915_GVT EXPORT_SYMBOL_GPL 0x890fc889	i915_vm_release	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x97dcc635	intel_gvt_clear_ops	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x99454841	__intel_context_do_pin	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0x99963f56	intel_uncore_forcewake_get	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xa65904fa	i915_gem_object_create_shmem	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xade16e1d	i915_gem_ww_ctx_init	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xae597e30	intel_runtime_pm_get	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xbd954338	intel_uncore_forcewake_put	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xc03a5fbd	i915_request_add	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xc1b2366d	i915_request_create	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xe47eb017	__i915_gem_object_set_pages	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xe4d5f273	__px_dma	drivers/gpu/drm/i915/i915
-I915_GVT EXPORT_SYMBOL_GPL 0xfc053e0c	i915_gem_object_ggtt_pin_ww	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x8b9facb7	intel_gvt_clear_ops	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x9553e874	i915_gem_object_create_shmem	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x9786d12e	intel_ring_begin	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0x9c1a3d25	i915_gem_object_ggtt_pin_ww	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xa88b092f	i915_ppgtt_create	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xb7f3a65d	intel_runtime_pm_get	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xd5b9e0d1	_i915_vma_move_to_active	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xd97c30d4	__px_dma	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xdf231957	intel_gvt_set_ops	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xe328a9d5	intel_uncore_forcewake_for_reg	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xe43aa164	i915_gem_object_alloc	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xe5504b11	i915_request_add	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xf761c495	intel_context_create	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xf845ac2c	intel_uncore_forcewake_get	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xf85e53db	i915_gem_ww_ctx_fini	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xfbdd509c	__i915_gem_object_set_pages	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xfbe705b9	__i915_gem_object_flush_map	drivers/gpu/drm/i915/i915
 I915_GVT EXPORT_SYMBOL_GPL 0xfdd4bab5	i915_gem_prime_export	drivers/gpu/drm/i915/i915
+I915_GVT EXPORT_SYMBOL_GPL 0xfe6746fc	intel_runtime_pm_put_unchecked	drivers/gpu/drm/i915/i915
 I915_GVT EXPORT_SYMBOL_GPL 0xff5df624	shmem_unpin_map	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x01216bb5	i915_sriov_resume_vf	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x1507147a	i915_sriov_ggtt_size	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x5a711b7c	i915_sriov_ggtt_save	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x621c427d	i915_sriov_pause_vf	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x6c516435	i915_sriov_fw_state_load	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0x702556c1	i915_sriov_fw_state_save	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0xc1f06743	i915_sriov_ggtt_load	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0xcbdd6c6b	i915_sriov_fw_state_size	drivers/gpu/drm/i915/i915
+I915_SRIOV_NS EXPORT_SYMBOL_GPL 0xea85cd1f	i915_sriov_wait_vf_flr_done	drivers/gpu/drm/i915/i915
 IDEAPAD_LAPTOP EXPORT_SYMBOL_GPL 0x4c65bf10	ideapad_laptop_unregister_notifier	drivers/platform/x86/ideapad-laptop
 IDEAPAD_LAPTOP EXPORT_SYMBOL_GPL 0x98c23494	ideapad_laptop_call_notifier	drivers/platform/x86/ideapad-laptop
 IDEAPAD_LAPTOP EXPORT_SYMBOL_GPL 0xcae1d210	ideapad_laptop_register_notifier	drivers/platform/x86/ideapad-laptop
