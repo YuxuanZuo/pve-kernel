@@ -1,3 +1,17 @@
+proxmox-kernel-6.12 (6.12.21-1) bookworm; urgency=medium
+
+  * fix MAC selection to use first port connected's address, fixed patch
+    "bridge: keep MAC of first assigned port"
+
+  * drop some outdated patches. The kvm parameter halt_poll_ns_grow is
+    now 2 from 0.
+  
+  * update kernel to debian/6.12.21-1
+
+  * backport SR-IOV support for the Intel i915 driver
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Thu, 10 Apr 2025 12:49:34 +0800
+
 proxmox-kernel-6.12 (6.12.19-1) bookworm; urgency=medium
 
   * update ZFS to include fix for ZVOL sync/flush regression that was
