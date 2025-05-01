@@ -16,10 +16,10 @@ Signed-off-by: Stanislav Lisovskiy <stanislav.lisovskiy@intel.com>
  1 file changed, 1 insertion(+)
 
 diff --git a/drivers/gpu/drm/i915/display/intel_display.c b/drivers/gpu/drm/i915/display/intel_display.c
-index d5eb8de645a9a321d98424b00e52f6fa55bd607f..240809867b6cef289add33bfdb2328d638fd393c 100644
+index 4f8899cd125d9dbc7350ec24277b453335d10601..d6500b39019d2e968c2d62b6645df4ce1081582a 100644
 --- a/drivers/gpu/drm/i915/display/intel_display.c
 +++ b/drivers/gpu/drm/i915/display/intel_display.c
-@@ -4561,6 +4561,7 @@ copy_joiner_crtc_state_modeset(struct intel_atomic_state *state,
+@@ -4563,6 +4563,7 @@ copy_joiner_crtc_state_modeset(struct intel_atomic_state *state,
  	drm_mode_copy(&secondary_crtc_state->hw.adjusted_mode,
  		      &primary_crtc_state->hw.adjusted_mode);
  	secondary_crtc_state->hw.scaling_filter = primary_crtc_state->hw.scaling_filter;

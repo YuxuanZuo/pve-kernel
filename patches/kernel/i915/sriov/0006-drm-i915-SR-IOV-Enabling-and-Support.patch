@@ -1728,10 +1728,10 @@ index d791d63d49b49e6bb9fa5750c1760975769fd258..9602480c64319ee1be5b1aaa9487af76
  	if (GRAPHICS_VER(i915) == 9) {
  		int i;
 diff --git a/drivers/gpu/drm/i915/gt/intel_rc6.c b/drivers/gpu/drm/i915/gt/intel_rc6.c
-index 9378d5901c493913ab046980b69e37c03f92880e..5d6f6d096f4af1bdfdcaee87ae5de894554359e9 100644
+index 9ca42589da4dada9c63a95e42a85d121de924570..dc60022e04c3f5f1865f510d203c890bbbf01fb8 100644
 --- a/drivers/gpu/drm/i915/gt/intel_rc6.c
 +++ b/drivers/gpu/drm/i915/gt/intel_rc6.c
-@@ -505,6 +505,9 @@ static bool rc6_supported(struct intel_rc6 *rc6)
+@@ -494,6 +494,9 @@ static bool rc6_supported(struct intel_rc6 *rc6)
  	if (!HAS_RC6(i915))
  		return false;
  
@@ -16685,10 +16685,10 @@ index b6df75622d3b9fa777ebb6f7a4f4cc8a285cd6f9..2e99a645b892c31381f11c6e14b2b7e5
 +
  #endif
 diff --git a/drivers/gpu/drm/i915/gt/uc/intel_huc.h b/drivers/gpu/drm/i915/gt/uc/intel_huc.h
-index 371b8ba6c013219fb660024197ef0b4375ca26db..2fc5e257a3a896f0d1a2b9e304d3bcef9409729f 100644
+index ec907bbf83c168dca1dbe4ac243f55b2f07ea5a1..75a8c0fce15c2a9b7d0886201ac8257a69172105 100644
 --- a/drivers/gpu/drm/i915/gt/uc/intel_huc.h
 +++ b/drivers/gpu/drm/i915/gt/uc/intel_huc.h
-@@ -71,20 +71,21 @@ int intel_huc_fw_load_and_auth_via_gsc_cs(struct intel_huc *huc);
+@@ -72,20 +72,21 @@ int intel_huc_fw_load_and_auth_via_gsc_cs(struct intel_huc *huc);
  void intel_huc_register_gsc_notifier(struct intel_huc *huc, const struct bus_type *bus);
  void intel_huc_unregister_gsc_notifier(struct intel_huc *huc, const struct bus_type *bus);
  
@@ -16715,7 +16715,7 @@ index 371b8ba6c013219fb660024197ef0b4375ca26db..2fc5e257a3a896f0d1a2b9e304d3bcef
  
  static inline bool intel_huc_is_loaded_by_gsc(const struct intel_huc *huc)
 diff --git a/drivers/gpu/drm/i915/gt/uc/intel_uc.c b/drivers/gpu/drm/i915/gt/uc/intel_uc.c
-index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a3758defdffe 100644
+index 4f751ce74214d41a8934c9b4f1924a6b0555c977..b13a48a249f2f9d879edc884ad2f6d706469f653 100644
 --- a/drivers/gpu/drm/i915/gt/uc/intel_uc.c
 +++ b/drivers/gpu/drm/i915/gt/uc/intel_uc.c
 @@ -8,6 +8,9 @@
@@ -16747,7 +16747,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  		uc->ops = &uc_ops_on;
  	else
  		uc->ops = &uc_ops_off;
-@@ -181,6 +187,9 @@ void intel_uc_driver_remove(struct intel_uc *uc)
+@@ -182,6 +188,9 @@ void intel_uc_driver_remove(struct intel_uc *uc)
   */
  static void guc_clear_mmio_msg(struct intel_guc *guc)
  {
@@ -16757,7 +16757,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  	intel_uncore_write(guc_to_gt(guc)->uncore, SOFT_SCRATCH(15), 0);
  }
  
-@@ -188,6 +197,9 @@ static void guc_get_mmio_msg(struct intel_guc *guc)
+@@ -189,6 +198,9 @@ static void guc_get_mmio_msg(struct intel_guc *guc)
  {
  	u32 val;
  
@@ -16767,7 +16767,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  	spin_lock_irq(&guc->irq_lock);
  
  	val = intel_uncore_read(guc_to_gt(guc)->uncore, SOFT_SCRATCH(15));
-@@ -593,6 +605,114 @@ static void __uc_fini_hw(struct intel_uc *uc)
+@@ -594,6 +606,114 @@ static void __uc_fini_hw(struct intel_uc *uc)
  	__uc_sanitize(uc);
  }
  
@@ -16882,7 +16882,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  /**
   * intel_uc_reset_prepare - Prepare for reset
   * @uc: the intel_uc structure
-@@ -617,7 +737,7 @@ void intel_uc_reset_prepare(struct intel_uc *uc)
+@@ -618,7 +738,7 @@ void intel_uc_reset_prepare(struct intel_uc *uc)
  		intel_guc_submission_reset_prepare(guc);
  
  sanitize:
@@ -16891,7 +16891,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  }
  
  void intel_uc_reset(struct intel_uc *uc, intel_engine_mask_t stalled)
-@@ -640,8 +760,21 @@ void intel_uc_reset_finish(struct intel_uc *uc)
+@@ -641,8 +761,21 @@ void intel_uc_reset_finish(struct intel_uc *uc)
  	uc->reset_in_progress = false;
  
  	/* Firmware expected to be running when this function is called */
@@ -16914,7 +16914,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  }
  
  void intel_uc_cancel_requests(struct intel_uc *uc)
-@@ -711,6 +844,9 @@ static int __uc_resume(struct intel_uc *uc, bool enable_communication)
+@@ -712,6 +845,9 @@ static int __uc_resume(struct intel_uc *uc, bool enable_communication)
  	struct intel_gt *gt = guc_to_gt(guc);
  	int err;
  
@@ -16924,7 +16924,7 @@ index 5b8080ec5315b6f7b07b792ce6f137ce1b9a0e48..517d644f407fd7931e516579a026a375
  	if (!intel_guc_is_fw_running(guc))
  		return 0;
  
-@@ -780,3 +916,14 @@ static const struct intel_uc_ops uc_ops_on = {
+@@ -781,3 +917,14 @@ static const struct intel_uc_ops uc_ops_on = {
  
  	.resume_mappings = __uc_resume_mappings,
  };

@@ -51,3 +51,4 @@ kernel/i915/sriov/0046-drm-i915-iov-fix-i915-sriov-build-issue.patch
 kernel/i915/sriov/0047-drm-i915-CTB-TLB-invalidation-fix-on-VM.patch
 kernel/i915/sriov/0048-vfio-i915-Add-vfio_pci-driver-for-Intel-graphics.patch
 kernel/i915/sriov/0049-drm-i915-guc-Upgrade-GuC-fw-version-to-70.36.0.patch
+kernel/i915/sriov/0050-drm-i915-Fix-logic-for-GUC-Process.patch

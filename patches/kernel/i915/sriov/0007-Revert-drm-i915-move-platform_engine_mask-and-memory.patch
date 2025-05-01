@@ -43,7 +43,7 @@ index f8da7fd2d3e094720e8057ad08921509a8985f5d..bcb891124b265c716bbe6a169fbb031d
  		mask = gt->info.engine_mask;
  
 diff --git a/drivers/gpu/drm/i915/gt/uc/intel_huc.c b/drivers/gpu/drm/i915/gt/uc/intel_huc.c
-index 6d793a457581a132ff5b8ee36272e38e03f8a01d..d58c98c4e5096fc54feaeb3e4e0483197c798ad2 100644
+index e294ec5b952a8444400c6711f8136ebbe1e4f02d..55ec49c7f88cf8b57ebe3a6474a73b296b9b7345 100644
 --- a/drivers/gpu/drm/i915/gt/uc/intel_huc.c
 +++ b/drivers/gpu/drm/i915/gt/uc/intel_huc.c
 @@ -268,7 +268,7 @@ static bool vcs_supported(struct intel_gt *gt)

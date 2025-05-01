@@ -57,7 +57,7 @@ index 3d3191deb0ab9ea9b5cf1b302d719c24664b109f..7a809a19c366b0090cd96f8b0cc8e272
  
  	if (actions & GSC_ACTION_SW_PROXY) {
 diff --git a/drivers/gpu/drm/i915/gt/uc/intel_huc.c b/drivers/gpu/drm/i915/gt/uc/intel_huc.c
-index 2d9152eb7282555078528215cfa477123a3f4a68..6d793a457581a132ff5b8ee36272e38e03f8a01d 100644
+index 24fdce844d9e3eab8e28504bcab37455b0706112..e294ec5b952a8444400c6711f8136ebbe1e4f02d 100644
 --- a/drivers/gpu/drm/i915/gt/uc/intel_huc.c
 +++ b/drivers/gpu/drm/i915/gt/uc/intel_huc.c
 @@ -198,7 +198,7 @@ void intel_huc_register_gsc_notifier(struct intel_huc *huc, const struct bus_typ
@@ -69,7 +69,7 @@ index 2d9152eb7282555078528215cfa477123a3f4a68..6d793a457581a132ff5b8ee36272e38e
  		return;
  
  	huc->delayed_load.nb.notifier_call = gsc_notifier;
-@@ -601,6 +601,14 @@ static bool huc_is_fully_authenticated(struct intel_huc *huc)
+@@ -600,6 +600,14 @@ static bool huc_is_fully_authenticated(struct intel_huc *huc)
  {
  	struct intel_uc_fw *huc_fw = &huc->fw;
  
@@ -84,7 +84,7 @@ index 2d9152eb7282555078528215cfa477123a3f4a68..6d793a457581a132ff5b8ee36272e38e
  	if (!huc_fw->has_gsc_headers)
  		return intel_huc_is_authenticated(huc, INTEL_HUC_AUTH_BY_GUC);
  	else if (intel_huc_is_loaded_by_gsc(huc) || HAS_ENGINE(huc_to_gt(huc), GSC0))
-@@ -609,6 +617,10 @@ static bool huc_is_fully_authenticated(struct intel_huc *huc)
+@@ -608,6 +616,10 @@ static bool huc_is_fully_authenticated(struct intel_huc *huc)
  		return false;
  }
  
@@ -96,10 +96,10 @@ index 2d9152eb7282555078528215cfa477123a3f4a68..6d793a457581a132ff5b8ee36272e38e
   * intel_huc_check_status() - check HuC status
   * @huc: intel_huc structure
 diff --git a/drivers/gpu/drm/i915/gt/uc/intel_huc.h b/drivers/gpu/drm/i915/gt/uc/intel_huc.h
-index ba5cb08e9e7bf1edb27dfa310e91234f84241097..371b8ba6c013219fb660024197ef0b4375ca26db 100644
+index 09aff3148f7ddbf1f5d363a660bf9e4402fa8fb4..ec907bbf83c168dca1dbe4ac243f55b2f07ea5a1 100644
 --- a/drivers/gpu/drm/i915/gt/uc/intel_huc.h
 +++ b/drivers/gpu/drm/i915/gt/uc/intel_huc.h
-@@ -63,8 +63,10 @@ int intel_huc_wait_for_auth_complete(struct intel_huc *huc,
+@@ -64,8 +64,10 @@ int intel_huc_wait_for_auth_complete(struct intel_huc *huc,
  				     enum intel_huc_authentication_type type);
  bool intel_huc_is_authenticated(struct intel_huc *huc,
  				enum intel_huc_authentication_type type);
