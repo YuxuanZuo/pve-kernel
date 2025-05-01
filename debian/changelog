@@ -1,3 +1,9 @@
+proxmox-kernel-6.12 (6.12.25-1) bookworm; urgency=medium
+
+  * update submodule and patches for debian/6.12.25-1
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Thu, 01 May 2025 23:07:02 +0800
+
 proxmox-kernel-6.12 (6.12.21-1) bookworm; urgency=medium
 
   * fix MAC selection to use first port connected's address, fixed patch
