@@ -1,3 +1,9 @@
+proxmox-kernel-6.12 (6.12.29-1) bookworm; urgency=medium
+
+  * update submodule and patches for debian/6.12.29-1
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Fri, 23 May 2025 01:01:20 +0800
+
 proxmox-kernel-6.12 (6.12.25-1) bookworm; urgency=medium
 
   * update submodule and patches for debian/6.12.25-1
