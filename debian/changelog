@@ -1,3 +1,13 @@
+proxmox-kernel-6.12 (6.12.33-1) bookworm; urgency=medium
+
+  * update submodule and patches for debian/6.12.33-1
+
+  * 6.12.29-1 supplementary changelog:
+    ship modules in canonical /usr/lib path, avoiding the aliased /lib
+    one to better follow usrmerge.
+
+ -- Ethan Zuo <yuxuan.zuo@outlook.com>  Sat, 21 Jun 2025 18:39:26 +0800
+
 proxmox-kernel-6.12 (6.12.29-1) bookworm; urgency=medium
 
   * update submodule and patches for debian/6.12.29-1
